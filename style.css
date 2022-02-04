@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #E0E0E0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    height: 100vh;
+} 
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.3em;
+}
+
+.welcome h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    padding-right: 30%;
+
+}
+
+.welcome p {
+    width: 45%;
+    font-size: 0.8em;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.welcome h2 {
+    font-weight: 400;
+    font-size: 1.875em;
+    margin-bottom: 3%;
+    padding-right: 35%;
+}
+
+form {
+    width: 45%;
+    color: #E0E0E0;
+}
+
+textarea:focus, input:focus {
+    color: #E0E0E0;
+}
+
+input, select, textarea{
+    color: #E0E0E0;
+}
+
+
+input {
+    border-radius: 90px;
+    border-style: none;
+    padding: 5%;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-1 {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-1 i {
+    margin-left: 4%;
+}
+
+.form-2 {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-2 i {
+    margin-left: 4%;
+}
+
+
+.botao-login button {
+    margin-top: 50px;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    width: 93%;
+    color: white;
+    border-style: none;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.botao-login button:hover {
+    transform: scale(1.1);
+}
+
+.botao-login a {
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+}
+
+.img-1 {
+    height: 100vh;
+    background-image: url(./img/login-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.img-1 img {
+    width: auto;
+    height: 8%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+@media (min-width: 1500px) {
+    .welcome h1 {
+        font-size: 4em;
+        padding-right: 35%;
+    }
+
+    .welcome p {
+        font-size: 1.3rem;
+        line-height: 125%;
+    }
+
+    .welcome h2 {
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+
+    
+    .form-1 input, .form-2 input {
+        padding: 5%;
+    }
+
+    .botao-login button {
+        padding: 5%;
+        font-size: 1.5em;
+    }
+
+    i {
+        transform: scale(1.5);
+    }
+
+}
+
+    /* Home */
+    /* Header */
+
+header {
+    color: black;
+    margin: 1%;
+    height: 20vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    height: 15%;
+    width: auto;
+    margin-left: 5%;
+}
+
+.hora h1 {
+    font-size: 5em;
+    line-height: 0.8em;
+    
+}
+
+.clima {
+    display: flex;
+    flex-direction: column;
+}
+
+.clima h2 {
+    align-self: flex-end;
+    font-size: 2em;
+}
+
+    /* footer */
+
+.footer {
+    display: flex;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: #FFFFFF;
+    height: 20vh;
+}
+
+.mensagem {
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+}
+
+.mensagem p {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cronometro {
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+}
+
+.right-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.right-home p {
+    align-self: center;
+    
+    border: 1px solid red;
+    font-size: 0.875em;
+}
+
+.timer {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.timer h1 {
+    font-size: 3.5em;
+    line-height: 0.8em;
+    border: 1px solid red;
+
+}
+
+.timer p {
+    align-self: center;    
+}
+
+.logout, .continuar { 
+    display: flex;
+}
+
+.continuar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continuar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continuar button{
+    background: #FFFFFF;
+    color: #C13216;
+    border: none;
+    padding: 50%;
+    border: 1px solid red;
+
+}
+
+.logout button{
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: #FFFFFF;
+    padding: 100%;
+    border: 1px solid red;
+}
+
+
+
+

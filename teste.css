@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #E0E0E0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+header {
+    color: black;
+    margin: 1%;
+    height: 20vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    height: 15%;
+    width: auto;
+    margin-left: 5%;
+}
+
+.hora h1 {
+    font-size: 5em;
+    line-height: 0.8em;
+    
+}
+
+.clima {
+    display: flex;
+    flex-direction: column;
+}
+
+.clima h2 {
+    align-self: flex-end;
+    font-size: 2em;
+}
+
+    /* footer */
+
+.footer {
+    display: flex;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: #FFFFFF;
+    height: 20vh;
+    display: flex;
+
+}
+
+.mensagem {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mensagem p {
+    width: 85%;
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.cronometro h1 {
+    font-size: 3.5em;
+    line-height: 0.8em;
+    border: 1px solid red;
+}
+
+.cronometro {
+    width: 25%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer h1 {
+    font-size: 3.5em;
+    line-height: 0.8em;
+}
+.timer h6 {
+    align-self: center;    
+}
+
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.continuar button{
+    background: #FFFFFF;
+    color: #C13216;
+}
+
+.logout button{
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: #FFFFFF;
+}
+
+
