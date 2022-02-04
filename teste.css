@@ -52,7 +52,7 @@ header {
     display: flex;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     color: #FFFFFF;
-    height: 20vh;
+    height: 15vh;
     display: flex;
 
 }
@@ -69,21 +69,18 @@ header {
     font-size: 0.75em;
     display: flex;
     align-items: center;
-    padding: 0;
-    margin: 0;
+    border-right:1px solid #FFFFFF;
     
 }
 
 .cronometro {
     width: 30%;
-    border: 1px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cronometro p {
-    border: 1px solid blue;
     width: 20%;
     padding-right: 10%;
 }
