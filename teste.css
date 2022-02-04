@@ -60,7 +60,7 @@ header {
 .mensagem {
     width: 50%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -74,19 +74,18 @@ header {
     
 }
 
-
-.cronometro h1 {
-    font-size: 3.5em;
-    line-height: 0.8em;
-    border: 1px solid red;
-}
-
 .cronometro {
-    width: 25%;
+    width: 30%;
     border: 1px solid green;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.cronometro p {
+    border: 1px solid blue;
+    width: 20%;
+    padding-right: 10%;
 }
 
 .timer h1 {
@@ -97,21 +96,45 @@ header {
     align-self: center;    
 }
 
-
 .login {
     display: flex;
-    justify-content: space-between;
-    width: 25%;
+    justify-self: center; 
+    justify-content: start;
+    width: 20%;
+}
+
+.continuar {
+    display: flex;
+    justify-self: center;
+    width: 100%;
 }
 
 .continuar button{
     background: #FFFFFF;
     color: #C13216;
+    border-style: none;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 0.875;
+    padding: 5%;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .logout button{
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     color: #FFFFFF;
+    border-style: none;
+    width: 100%;
+
 }
 
-
+.logout a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
