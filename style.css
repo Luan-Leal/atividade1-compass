@@ -273,7 +273,7 @@ header {
 .mensagem {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -283,7 +283,7 @@ header {
     display: flex;
     align-items: center;
     border-right:1px solid #FFFFFF;
-    
+    padding: 2% 0;
 }
 
 .cronometro {
@@ -294,16 +294,25 @@ header {
 }
 
 .cronometro p {
+    display: flex;
     width: 20%;
-    padding-right: 10%;
+    justify-content: flex-end;        
+}
+
+.timer {
+    padding-left: 5%;
+    padding-right: 25%;
 }
 
 .timer h1 {
     font-size: 3.5em;
     line-height: 0.8em;
 }
+
 .timer h6 {
-    align-self: center;    
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;  
 }
 
 .login {
@@ -347,4 +356,70 @@ header {
     color: #FFFFFF;
     text-decoration: none;
     
+}
+
+@media (min-width: 1500px) {
+    .main {
+        height: 75vh;
+    }
+    
+    .missao h3 {
+        color: #C12D18;
+        font-size: 2.25em;
+    }
+    
+    .missao h2 {
+        color: #C12D18;
+        font-size: 4.5em;
+    }
+    
+    .missao h6 {
+        color: #222222;
+        font-size: 1.5em;
+    }
+
+    .mensagem p {
+        width: 45%;
+        font-size: 0.75em;
+        padding: 2% 0;
+    }
+
+    .footer {
+        height: 10vh;
+    }
+
+    .timer {
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+
+    .cronometro p {
+        width: 15%;     
+    }
+
+    .login {
+        display: flex;
+        justify-self: center; 
+        justify-content: flex-end;
+        width: 15;
+    }
+
+    .continuar {
+        width: 40%;
+    }
+    
+    .continuar button{
+        width: 100%;
+        padding: 20%;
+        font-size: 0.8em;
+    }
+    
+    .logout {
+        width: 40%;
+    }
+    
+    .logout button{
+        width: 100%;
+    
+    }
 }
