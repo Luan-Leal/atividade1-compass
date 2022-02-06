@@ -205,10 +205,30 @@ header {
 .clima {
     display: flex;
     flex-direction: column;
+    margin-right: 1%;
 }
 
-.clima h2 {
-    align-self: flex-end;
+.clima h5 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.60em;
+}
+
+.clima2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-img img {
+    width: auto;
+    height: 20%;
+    padding-top: 15%;
+    padding-right: 5%;
+}
+
+.container-temp {
+    display: flex;
+    font-weight: bold;
     font-size: 2em;
 }
 
