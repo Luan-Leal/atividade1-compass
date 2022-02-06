@@ -311,8 +311,7 @@ header {
 
 .timer h6 {
     display: flex;
-    justify-content: center;
-    border: 1px solid red;  
+    justify-content: center; 
 }
 
 .login {
