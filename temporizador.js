@@ -9,7 +9,7 @@ function startTimer (duration, display) {
         display.textContent = seconds; 
         
         if (--timer < 0) {
-            timer = window.location.href = "";
+            timer = window.location.href = "./index.html";
         }
 
         
