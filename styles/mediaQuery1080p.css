@@ -1,0 +1,55 @@
+@media (min-width: 1600px) and (max-width: 1999px) {
+    
+    .missao {
+        padding-right: 10%;
+        height: calc(70vh + 3px);
+    }
+
+    .missao h2 {
+        color: #C12D18;
+        font-size: 3.5em;
+    }
+    
+    .missao p {
+        color: #222222;
+        font-size: 1.25em;
+    }
+
+    .footer {
+        height: 10vh;
+    }
+
+    .login {
+        display: flex;
+        justify-self: center; 
+        justify-content: flex-end;
+        width: 25%;
+    }
+
+    .mensagem p {
+        width: 60%;
+        font-size: 0.7em;
+        padding-right: 2%;
+        padding: 1% 0;
+    }
+
+    .continuar {
+        width: 35%;
+    }
+    
+    .continuar button{
+        width: 100%;
+        padding: 20%;
+        font-size: 0.8em;
+    }
+    
+    .logout {
+        width: 35%;
+    }
+    
+    .logout button{
+        width: 100%;
+        font-size: 1em;
+    
+    } 
+}
