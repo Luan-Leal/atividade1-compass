@@ -1,0 +1,15 @@
+.mensagem {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mensagem p {
+    width: 85%;
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+    border-right:1px solid #FFFFFF;
+    padding: 2% 0;
+}

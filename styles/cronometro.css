@@ -1,0 +1,27 @@
+.cronometro {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cronometro p {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;        
+}
+
+.timer {
+    padding-left: 5%;
+    padding-right: 25%;
+}
+
+.timer h1 {
+    font-size: 3.5em;
+    line-height: 0.8em;
+}
+
+.timer h6 {
+    display: flex;
+    justify-content: center; 
+}

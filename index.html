@@ -4,41 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" type="module" defer></script>
     <title>Compass tarefa 1 - Login</title>
 </head>
 <body>
     <main>
-        <section class="left">
-            <div class="welcome">
-                <h1>Olá,</h1>
-                <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
-                <h2>Login</h2>
-                <form action="" class="">
-                    <div class="form-1" id="user">
-                        <input type="ratio" placeholder="Usuário">
-                        <i class="far fa-user"></i>
+        <section class="login-page">
+            <div id="main-login-page">
+                <div class="welcome">
+                    <h1>Olá,</h1>
+                    <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
+                    <h2>Login</h2>
+                    <div id="form">
+                        <div class="form-1">
+                            <input type="ratio" placeholder="Usuário" id="user" name="username">
+                        </div>
+                        <div class="form-2">
+                            <input type="password" name="password" id="senha" placeholder="Senha">
+                        </div>
+                        <div class="botao-login">
+                            <button>Continuar</button>
+                        </div>
                     </div>
-                    <div class="form-2" id="password">
-                        <input type="password" name="" id="" placeholder="Senha">
-                        <i class="far fa-lock"></i>
+                </div>
+                <div class="right">
+                    <div class="img-1">
+                        <img src="./assets/logo-branco.png" alt="Logo com fonte branco">
                     </div>
-                    <div class="botao-login">
-                        <button type="submit"><a href="">Continuar</a></button>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <section class="right">
-            <div class="img-1">
-                <img src="./img/logo-branco.png" alt="Logo com fonte branco">
+                </div>
             </div>
         </section>
     </main>
+
+    <section class="segunda-pagina">
+        <div id="home-page">
+            <div class="logo">
+                <img src="./assets/logo-preta.png" alt="Logo com fonte preta">
+            </div>
+            <div class="hora">
+                <h1><span id="hora">11</span>:<span id="minutos">26</span></h1>
+                <h6><span id="diaSemana">terça-feira</span>, <span id="dia">17</span> de
+                <span id="mes">março</span> de <span id="ano">2020</span></h6>
+            </div>
+            <div class="clima">
+                <h5 id="cidade">Carregando...</h5>
+                <div class="clima2">
+                    <div class="container-img">
+                        <img src="./assests/icons/unknown.png" id="icon-clima">
+                    </div>
+                    <div class="container-temp">
+                        <div>...</div>
+                        <span>°</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="meio">
+            <div class="parte-direita-home">
+                <div class="foto">
+                    <div class="logo-grande"></div>
+                </div>
+                <div class="missao">
+                    <h2>Our mission is</h2>
+                    <p>No missão é</p>
+                    <h2>to transform the world</h2>
+                    <p>tranformar o mundo</p>
+                    <h2>building digital experiences</h2>
+                    <p>construindo esperiências digitais</p>
+                    <h2>that enable our client's growth</h2>
+                    <p>que permitam o crescimento dos nossos clientes</p>
+                </div>
+            </div>
+        </div>
+    
+
+        <footer>
+            <section class="footer">
+                <div class="mensagem">
+                    <p>Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a
+                    aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
+                </div>
+                <div class="cronometro">
+                    <p>Application refresh in</p>
+                    <div class="timer">
+                        <h1 id="timer">600</h1>
+                        <h6>segundos</h6>
+                    </div>
+                </div>
+                <div class="login">
+                    <div class="continuar">
+                        <button>continuar navegando</button>
+                    </div>
+                    <div class="logout">
+                        <button><a href="./index.html">Logout</a></button>
+                    </div>
+
+                </div>
+            </section>
+        </footer>
+    </section>
+    <script src="./script/clima.js"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+.foto {
+    width: 50%;
+    display: flex;
+}
+
+.logo-grande {
+    display: flex;
+    background-image: url(../assets/logo-grande.png);
+    background-size: cover;
+    width: 100%;
+}

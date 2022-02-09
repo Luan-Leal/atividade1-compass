@@ -1,0 +1,6 @@
+.login {
+    display: flex;
+    justify-self: center; 
+    justify-content: start;
+    width: 20%;
+}
