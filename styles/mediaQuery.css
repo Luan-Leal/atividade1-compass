@@ -30,14 +30,10 @@
     }
 }
 
-@media (max-width: 100px) {
-    .segunda-pagina {
-        height: 100vh;
-    }
-    
-    .missao h3 {
-        color: #C12D18;
-        font-size: 2.25em;
+@media (min-width:1500px) and (max-width: 3000px) {
+    .missao {
+        height: calc(70vh + 6px);
+        padding-right: 10%;
     }
     
     .missao h2 {
@@ -45,15 +41,16 @@
         font-size: 4.5em;
     }
     
-    .missao h6 {
+    .missao p {
         color: #222222;
-        font-size: 1.5em;
+        font-size: 2.0em;
     }
 
     .mensagem p {
-        width: 45%;
-        font-size: 0.75em;
+        width: 65%;
+        font-size: 1.20em;
         padding: 2% 0;
+        padding-right: 2%;
     }
 
     .footer {
@@ -73,7 +70,7 @@
         display: flex;
         justify-self: center; 
         justify-content: flex-end;
-        width: 15%;
+        width: 25%;
     }
 
     .continuar {
