@@ -1,3 +1,5 @@
+export default function Data(){
+
     var data = new Date();
 
     var hora = data.getHours()
@@ -38,3 +40,5 @@
 
     var ano = data.getFullYear()
     document.querySelector("#ano").innerText=ano;
+
+}

@@ -1,0 +1,15 @@
+.continuar {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+}
+
+.continuar button{
+    background: #FFFFFF;
+    color: #C13216;
+    border-style: none;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 0.875;
+    padding: 5%;
+}

@@ -9,30 +9,30 @@ body {
     font-style: normal;
 }
 
-main {
-    display: flex;
+.login-page {
+    display: block;
 }
 
-.left {
-    width: 50%;
-    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
-    height: 100vh;
-} 
+#main-login-page {
+    display: flex;
+    flex-direction: row;
+}
 
 .welcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     line-height: 1.3em;
+    width: 100%;
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 }
 
 .welcome h1 {
     font-size: 3.5em;
     font-weight: 400;
     padding-right: 30%;
-
+    
 }
 
 .welcome p {
@@ -49,7 +49,7 @@ main {
     padding-right: 35%;
 }
 
-form {
+#form {
     width: 45%;
     color: #E0E0E0;
 }
@@ -112,19 +112,21 @@ input {
     transform: scale(1.1);
 }
 
-.botao-login a {
+.botao-login {
     text-decoration: none;
     color: #E0E0E0;
+    padding: 5%;
 }
 
 .right {
-    width: 50%;
-    height: 100vh;
-}
+    height: 100%;
+    width: 100%;
+} 
 
 .img-1 {
     height: 100vh;
-    background-image: url(./img/login-bg.png);
+    width: 100%;
+    background-image: url(../assets/login-bg.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -166,34 +168,26 @@ input {
     i {
         transform: scale(1.5);
     }
-
 }
 
     /* Home */
 
     /* Header */
 
-header {
+#home-page {
     color: black;
-    height: 15vh;
-}
-
-.header {
+    height: 5%;
     display: flex;
+    align-content: center;
     justify-content: space-between;
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 2%;
+    height: 12vh;
 }
 
-.logo {
-    width: 10%;
-}
 
 .logo img {
-    height: 15%;
+    height: 45px;
     width: auto;
-    margin-left: 5%;
 }
 
 .hora h1 {
@@ -222,6 +216,7 @@ header {
 .container-img img {
     width: auto;
     height: 20%;
+    margin-top: 20%;
 }
 
 .container-temp {
@@ -232,24 +227,26 @@ header {
 
     /* Main */
 
-.main {
+.segunda-pagina {
+    background: #FFFFFF;
+}
+
+.parte-direita-home {
     width: 100%;
-    height: 70vh;
     display: flex;
 
 }
 
 .foto {
-    width: 45%;
+    width: 50%;
     display: flex;
 }
 
 .logo-grande {
     display: flex;
-    background-image: url(./img/logo-grande.png);
+    background-image: url(../assets/logo-grande.png);
     background-size: cover;
     width: 100%;
-
 }
 
 
@@ -259,6 +256,7 @@ header {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    height: 65vh;
 }
 
 .missao h3 {
@@ -271,7 +269,7 @@ header {
     font-size: 2.5em;
 }
 
-.missao h6 {
+.missao p {
     color: #222222;
     font-size: 1em;
 
@@ -283,8 +281,9 @@ header {
     display: flex;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     color: #FFFFFF;
-    height: 15vh;
+    height: 10%;
     display: flex;
+    height: 15vh;
 
 }
 
@@ -375,9 +374,9 @@ header {
     
 }
 
-@media (min-width: 1500px) {
-    .main {
-        height: 75vh;
+@media (max-width: 100px) {
+    .segunda-pagina {
+        height: 100vh;
     }
     
     .missao h3 {
@@ -418,7 +417,7 @@ header {
         display: flex;
         justify-self: center; 
         justify-content: flex-end;
-        width: 15;
+        width: 15%;
     }
 
     .continuar {
@@ -438,5 +437,5 @@ header {
     .logout button{
         width: 100%;
     
-    }
+    } 
 }

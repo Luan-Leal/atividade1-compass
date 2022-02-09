@@ -1,0 +1,19 @@
+.logout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logout button{
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: #FFFFFF;
+    border-style: none;
+    width: 100%;
+
+}
+
+.logout a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
