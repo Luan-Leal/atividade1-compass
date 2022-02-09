@@ -1,15 +1,11 @@
 .missao {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
     height: 65vh;
-}
-
-.missao h3 {
-    color: #C12D18;
-    font-size: 1.90em;
+    padding-right: 3.5%;
 }
 
 .missao h2 {
@@ -19,6 +15,6 @@
 
 .missao p {
     color: #222222;
-    font-size: 1em;
+    font-size: 1.20em;
 
 }

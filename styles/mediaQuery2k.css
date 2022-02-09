@@ -1,12 +1,12 @@
-
-@media (min-width: 1500px) {
+@media (min-width:2000px) and (max-width: 5000px) {
+    
     .welcome h1 {
-        font-size: 4em;
+        font-size: 4.5em;
         padding-right: 35%;
     }
 
     .welcome p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 125%;
     }
 
@@ -28,9 +28,34 @@
     i {
         transform: scale(1.5);
     }
-}
+    
+    .hora h1 {
+        font-size: 7em;
+    }
 
-@media (min-width:1500px) and (max-width: 3000px) {
+    .hora h6 {
+        font-size: 0.8em;
+    }
+
+    .clima h5 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.80em;
+    }
+    
+    .container-img img {
+        width: auto;
+        height: 30%;
+        margin-top: 10%;
+    }
+    
+    .container-temp {
+        display: flex;
+        font-weight: bold;
+        font-size: 2.8em;
+    }
+    
+    
     .missao {
         height: calc(70vh + 6px);
         padding-right: 10%;
@@ -48,9 +73,9 @@
 
     .mensagem p {
         width: 65%;
-        font-size: 1.20em;
-        padding: 2% 0;
+        font-size: 1.0em;
         padding-right: 2%;
+        padding: 1% 0;
     }
 
     .footer {
@@ -60,6 +85,13 @@
     .timer {
         padding-left: 5%;
         padding-right: 10%;
+    }
+
+    .cronometro {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .cronometro p {
@@ -80,7 +112,7 @@
     .continuar button{
         width: 100%;
         padding: 20%;
-        font-size: 0.8em;
+        font-size: 1em;
     }
     
     .logout {
@@ -89,6 +121,7 @@
     
     .logout button{
         width: 100%;
+        font-size: 1.2em;
     
     } 
 }

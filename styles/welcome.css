@@ -15,7 +15,7 @@
     align-items: center;
     line-height: 1.3em;
     width: 100%;
-background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 }
 
 .welcome h1 {
@@ -26,10 +26,11 @@ background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 }
 
 .welcome p {
-    width: 45%;
+    width: 40%;
     font-size: 0.8em;
     margin-top: 5%;
     margin-bottom: 15%;
+    padding-right: 8%;
 }
 
 .welcome h2 {

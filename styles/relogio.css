@@ -1,4 +1,12 @@
 .hora h1 {
     font-size: 5em;
-    line-height: 0.8em;   
+    line-height: 0.8em;
+   
+}
+
+
+.hora h6 {
+    font-size: 0.6em;
+    padding-left: 5%;
+    font-weight: 400;
 }
