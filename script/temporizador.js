@@ -1,24 +1,23 @@
 export default function Timer ( ) {
     function startTimer (duration, display) {
         var timer = duration, seconds;
-        var button  = document.querySelector(".continuar")
+        var button  = document.querySelector(".botao-login")
 
-        setInterval(function(){
-            seconds = parseInt(timer % 600);
-            
-            seconds = seconds < 10 ? "0" + seconds : seconds;
+        button.addEventListener("click", () => {
+  
+            setInterval(function(){
+                seconds = parseInt(timer % 600);
+                
+                seconds = seconds < 10 ? "0" + seconds : seconds;
 
-            display.textContent = seconds; 
-            
-            if (--timer < 0) {
-                timer = window.location.href = "./index.html";
-            }
+                display.textContent = seconds; 
+                
+                if (--timer < 0) {
+                    timer = window.location.href = "./index.html";
+                }
 
-            button.addEventListener("click", () => {
-                timer = screenTop
-            })
-
-        }, 1000);
+            }, 1000);
+        })
     }
 
     window.onload = function () {
