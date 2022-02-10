@@ -1,4 +1,5 @@
 export default function Timer ( ) {
+
     function startTimer (duration, display) {
         var timer = duration, seconds;
         var button  = document.querySelector(".botao-login")
