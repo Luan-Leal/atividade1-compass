@@ -4,9 +4,10 @@
    
 }
 
-
 .hora h6 {
-    font-size: 0.5em;
+    font-size: 0.6em;
     padding-left: 5%;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
