@@ -68,7 +68,7 @@
         city.innerText = `${weather.name}, ${weather.sys.country}`;
 
         let iconName = weather.weather[0].icon;
-        container_img.innerHTML = `<img src="./assets/icons/${iconName}.png">`;
+        container_img.innerHTML = `<img draggable="false" src="./assets/icons/${iconName}.png">`;
 
         let temperature = `${Math.round(weather.main.temp)}`
         temp_number.innerHTML = temperature;

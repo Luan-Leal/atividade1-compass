@@ -1,4 +1,7 @@
+// import Timer from "./temporizador.js"
+// import startTimer from "./temporizador.js"
 export default function Login() {
+
   var usuario = document.querySelector('#user')
   var senha = document.querySelector('#senha')
   var loginPage = document.querySelector(".login-page") 
@@ -13,6 +16,8 @@ export default function Login() {
       homePage.style.display = "block" 
       loginPage.style.display = "none"
       document.title = "Home Compass"
+      // Timer()
+      // startTimer()
     }else{
       document.title = "Login Compass"
       erro.style.display = "block"

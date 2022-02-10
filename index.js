@@ -5,7 +5,10 @@ import Timer from "./script/temporizador.js";
 
 Login()
 
-Data()
+
+setInterval(() => {
+    Data()
+}, 1000);
 
 Timer()
 startTimer()
