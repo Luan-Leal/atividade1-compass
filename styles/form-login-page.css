@@ -7,12 +7,12 @@ textarea:focus, input:focus {
     color: #E0E0E0;
 }
 
+
 input, select, textarea{
     color: #E0E0E0;
 }
 
-
-input {
+.input-login {
     border-radius: 90px;
     border-style: none;
     padding: 5%;

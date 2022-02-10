@@ -1,6 +1,22 @@
 .login {
-    display: flex;
-    justify-self: center; 
-    justify-content: start;
     width: 20%;
 }
+
+.login-erro {
+    color: #E9B425;
+    width: 100%;
+    font-size: 0.7em;
+}
+
+
+.login-erro span {
+    display: none;
+    padding: 0 15%;
+    justify-content: center;
+}
+
+.login-erro p {
+    display: flex;
+    justify-content: center;
+}
+
