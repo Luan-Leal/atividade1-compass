@@ -1,3 +1,10 @@
+.login {
+    display: flex;
+    justify-self: center; 
+    justify-content: start;
+    width: 20%;
+}
+
 .continuar {
     display: flex;
     justify-self: center;

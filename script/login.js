@@ -4,15 +4,20 @@ export default function Login() {
   var loginPage = document.querySelector(".login-page") 
   var homePage = document.querySelector(".segunda-pagina")  
   var button  = document.querySelector(".botao-login button")
-  
+  var erro = document.querySelector(".login-erro span")
+
+  document.title = "Login Compass"
+
   button.addEventListener("click", () => {
     if (usuario.value == "a" && senha.value == "a") { 
       homePage.style.display = "block" 
       loginPage.style.display = "none"
-      document.title = "Login Compass"
-    }else{
-      alert("Login/Senha incorreto")
       document.title = "Home Compass"
+    }else{
+      document.title = "Login Compass"
+      erro.style.display = "block"
+      usuario.style.border = "1px solid #E9B425"
+      senha.style.border = "1px solid #E9B425"
     }
   }) 
 }
