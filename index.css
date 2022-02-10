@@ -36,6 +36,8 @@
 
 @import url(./styles/logout-button.css);
 
+@import url(./styles/mediaQueryCell.css);
+
 @import url(./styles/mediaQuery1080p.css);
 
 @import url(./styles/mediaQuery2k.css);

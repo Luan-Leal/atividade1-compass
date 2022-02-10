@@ -1,0 +1,138 @@
+@media (max-width: 600px) {
+
+    #main-login-page {
+        height: 100vh;
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        line-height: 1.3em;
+        width: 100%;
+        padding-left: 10% ;
+        border: 1px solid red;
+    }
+    
+    .welcome h1 {
+        font-size: 3.5em;     
+    }
+    
+    .welcome p {
+        width: 100%;
+        font-size: 1em;
+        padding-top: 5%;
+    }
+
+    .welcome h2 {
+        font-size: 1.750em;
+        padding-bottom: 5%;
+
+    }
+
+
+    #form {
+        width: 80%;
+        color: #E0E0E0;
+    }
+    
+
+    .right{
+        display: none;
+    }
+
+    .segunda-pagina{
+        display: none;
+    }
+
+    #meio{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .parte-direita-home {
+        display: flex;
+        background-image: url(../assets/logo-grande.png);
+        background-size: cover;
+        padding-right: 90%;
+        height: 71vh;
+    }
+
+    .logo img {
+        height: 75px;
+        width: auto;
+    }
+    
+
+    .hora {
+        display: none;
+    }
+
+    .clima {
+        display: none;
+    }
+
+    .missao {
+        width: 0%;
+    }
+
+    .missao h2{
+        display: none;
+
+    }
+
+    .missao p{
+        display: none;
+        width: 0%;
+    }
+
+
+    .foto {
+        display: flex;
+    }
+
+    .logo-grande {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+        color: #FFFFFF;
+        height: 10%;
+        display: flex;
+        height: 15vh;
+    
+    }
+    
+    .mensagem {
+        display: none;
+    }
+    
+    .cronometro {
+        display: none;
+    }
+    
+    .login {
+        display: flex;
+        justify-self: center; 
+        justify-content: start;
+        width: 100%;
+    }
+    
+    .continuar {
+        width: 80%;
+    }
+
+    .continuar button{
+        padding: 0 50%;
+    }
+    
+    .logout {
+        width: 20%;
+        order: -1;
+    }
+}
