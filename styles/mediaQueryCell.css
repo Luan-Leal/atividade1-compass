@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
 
     .logo-cel{
         display: flex;
@@ -67,6 +67,10 @@
         background-size: cover;
         padding-right: 90%;
         height: 71vh;
+    }
+
+    .parte-direita-home img{
+        display: none;
     }
 
     .logo img {
