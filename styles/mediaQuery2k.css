@@ -74,8 +74,8 @@
     .mensagem p {
         width: 65%;
         font-size: 1.0em;
-        padding-right: 2%;
         padding: 1% 0;
+        padding-right: 5%;
     }
 
     .footer {

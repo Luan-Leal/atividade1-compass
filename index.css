@@ -36,7 +36,11 @@
 
 @import url(./styles/logout-button.css);
 
+@import url(./styles/logo-cel.css);
+
 @import url(./styles/mediaQueryCell.css);
+
+@import url(./styles/mediaQuery900p.css);
 
 @import url(./styles/mediaQuery1080p.css);
 

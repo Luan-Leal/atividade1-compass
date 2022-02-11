@@ -1,5 +1,13 @@
 @media (max-width: 600px) {
 
+    .logo-cel{
+        display: flex;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        height: 15%;
+    }
+
     #main-login-page {
         height: 100vh;
     }

@@ -8,3 +8,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
+
+* {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
