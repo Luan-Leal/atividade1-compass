@@ -2,7 +2,10 @@
     display: flex;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     color: #FFFFFF;
-    height: 10%;
     display: flex;
     height: 15vh;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: 0; 
 }

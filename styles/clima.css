@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     margin-right: 1%;
+
 }
 
 .clima h5 {
     display: flex;
     justify-content: flex-end;
     font-size: 0.60em;
+    height: 30%;
+    
 }
 
 .clima2 {
@@ -17,7 +20,7 @@
 
 .container-img img {
     width: auto;
-    height: 20%;
+    height: 50%;
     margin-top: 20%;
 }
 
