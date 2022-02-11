@@ -12,7 +12,7 @@ export default function Login() {
   document.title = "Login Compass"
 
   button.addEventListener("click", () => {
-    if (usuario.value == "a" && senha.value == "a") { 
+    if (usuario.value == "admin" && senha.value == "admin") { 
       homePage.style.display = "block" 
       loginPage.style.display = "none"
       document.title = "Home Compass"
